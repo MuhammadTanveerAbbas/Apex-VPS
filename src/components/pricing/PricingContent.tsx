@@ -1,6 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, ArrowRight } from "lucide-react";
@@ -9,7 +10,7 @@ import type { Country } from "@/lib/types";
 import { CountrySelector } from "./CountrySelector";
 import { PricingCard } from "./PricingCard";
 
-export default function PricingContent() {
+function PricingContentInner() {
   const searchParams = useSearchParams();
   const selectedCountryCode = searchParams.get("country") || "USA";
   const selectedCountry: Country =
@@ -65,5 +66,13 @@ export default function PricingContent() {
         </div>
       </section>
     </div>
+  );
+}
+
+export default function PricingContent() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <PricingContentInner />
+    </Suspense>
   );
 }
