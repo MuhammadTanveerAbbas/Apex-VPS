@@ -1,7 +1,7 @@
 <div align="center">
-  <h1 align="center">ApexVPS ⚡ High-Performance Hosting Platform</h1>
+  <h1 align="center">ApexVPS ⚡ High Performance Hosting Platform</h1>
   <p align="center">
-    A next-generation, <strong>AI-powered hosting storefront</strong> built to deliver blazing-fast VPS, RDP, and Dedicated Server solutions for developers, businesses, and enterprises.
+    A next generation, <strong>Hosting storefront</strong> built to deliver blazing fast VPS, RDP, and Dedicated Server solutions for businesses.
   </p>
   <div align="center">
     <img src="https://img.shields.io/badge/Next.js-15.x-black?logo=next.js&style=for-the-badge" height="40" alt="Next.js logo" />
@@ -15,7 +15,7 @@
 
 ### 🧠 What is it
 
-**ApexVPS** is a **high performance hosting platform** that combines AI intelligence with lightning-fast infrastructure to deliver VPS, RDP, and Dedicated Server solutions.
+**ApexVPS** is a **high performance hosting platform** that combines AI intelligence with lightning fast infrastructure to deliver VPS, RDP, and Dedicated Server solutions.
 It’s designed for developers, businesses, and entrepreneurs seeking reliability, transparency, and speed all wrapped in a modern, responsive experience.
 
 ---
@@ -44,7 +44,7 @@ The hosting industry still faces major user pain points:
 **ApexVPS** solves these with a robust, scalable architecture:
 
 - ⚡ **Next.js & ShadCN powered UI** for speed and elegance
-- 🌐 **21+ global server locations** for low-latency access
+- 🌐 **21+ global server locations** for low latency access
 - 🔐 **Secure & DDoS protected infrastructure**
 - 💾 **NVMe SSD storage** and **25 Tbps+ network capacity**
 - 🧠 **Full admin control** and transparent pricing
@@ -69,58 +69,6 @@ A complete, next gen hosting storefront that:
 **AI Engine:** Google Genkit
 **Hosting Infrastructure:** NVMe SSD • DDoS Protected Network (25+ Tbps)
 **Deployment:** Node.js • Vercel / Cloud Platforms
-
----
-
-### ⚡ Getting Started
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/MuhammadTanveerAbbas/Apex-VPS.git
-   cd Apex-VPS
-
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Set up environment variables**
-
-   ```bash
-   cp .env.example .env
-   ```
-
-   Add your Google AI API key:
-
-   ```bash
-   GEMINI_API_KEY=YOUR_API_KEY_HERE
-   ```
-
-4. **Run the development servers**
-
-   - **Next.js App**
-
-     ```bash
-     npm run dev
-     ```
-
-     Visit **[http://localhost:3001](http://localhost:3001)**
-
-   - **Genkit AI Server**
-
-     ```bash
-     npm run genkit:dev
-     ```
-
-5. **Validate and build**
-
-   ```bash
-   npm run build
-   ```
 
 ---
 
