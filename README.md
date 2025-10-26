@@ -1,7 +1,7 @@
 <div align="center">
   <h1 align="center">ApexVPS ⚡ High Performance Hosting Platform</h1>
   <p align="center">
-    A next generation, <strong>Hosting storefront</strong> built to deliver blazing fast VPS, RDP, and Dedicated Server solutions for businesses.
+    A next generation, <strong>Hosting store</strong> built to deliver blazing fast VPS, RDP, and Dedicated Server solutions for businesses.
   </p>
   <div align="center">
     <img src="https://img.shields.io/badge/Next.js-15.x-black?logo=next.js&style=for-the-badge" height="40" alt="Next.js logo" />
