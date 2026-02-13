@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center">ApexVPS ⚡ High Performance Hosting Platform</h1>
+  <h1 align="center">Apex VPS ⚡ High Performance Hosting Platform</h1>
   <p align="center">
     A next generation, <strong>Hosting store</strong> built to deliver blazing fast VPS, RDP, and Dedicated Server solutions for businesses.
   </p>
