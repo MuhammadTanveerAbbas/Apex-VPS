@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="public/favicon.svg" alt="Apex VPS Logo" width="100" height="100" />
+</div>
+
+<div align="center">
   <h1 align="center">Apex VPS ⚡ High Performance Hosting Platform</h1>
   <p align="center">
     A next generation, <strong>Hosting store</strong> built to deliver blazing fast VPS, RDP, and Dedicated Server solutions for businesses.
